@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind Starter Template</title>
+    <link rel="stylesheet" href="tailwind.css" />
+  </head>
+  <body class="bg-neutral-300">
+    <!-- Hero section 1 -->
+    <section class="grid grid-cols-4 gap-1 lg:grid-rows-none">
+      <img
+        src="pic/hero_2.jpg"
+        alt="hero"
+        class="cols-end-5 col-span-4 col-start-1 row-start-1 row-end-7 lg:col-start-1 lg:row-start-1 lg:h-3/4 lg:w-full"
+      />
+      <h2
+        class="col-span-2 col-start-2 row-start-2 pt-5 pl-2 font-bold text-stone-900 lg:col-start-3 lg:pt-8"
+      >
+        En guide til hipster foto
+      </h2>
+      <h1
+        class="col-span-3 col-start-2 row-start-3 pl-2 text-3xl font-bold text-orange-500 lg:col-start-3 lg:row-start-2 lg:row-end-3 lg:pt-16 lg:text-4xl"
+      >
+        Københavnerbilleder
+      </h1>
+      <p
+        class="col-span-2 col-start-3 row-start-4 pl-16 italic lg:col-start-4 lg:row-start-3"
+      >
+        af Sten Simons
+      </p>
+      <button
+        class="group col-span-2 col-start-3 row-start-5 mx-10 rounded-md border-2 py-0.5 text-slate-100 duration-700 hover:scale-125 hover:bg-zinc-600 hover:opacity-25 hover:duration-700 lg:col-start-4 lg:row-start-3 lg:row-end-4 lg:m-12"
+      >
+        <p class="hover:text-slate-100">KØB BOGEN</p>
+      </button>
+    </section>
+    <!-- Enn div som indholder alt undtaget hero- så resten har en marign -->
+    <div class="prose m-5 text-neutral-800 md:mx-20 lg:max-w-none">
+      <!-- Section 2  -->
+      <section class="grid-cols-2 lg:grid lg:gap-10">
+        <div class="">
+          <p class="text-2xl font-bold">Kort om bogen</p>
+          <p>
+            Københavnerbilleder er de danske streetfotografers bibel: Det er en
+            fusion mellem et kunstværk og en lærebog. Bogen gennemgår alle
+            væsentlige aspekter af streetfotografering fra grundlæggende teknik
+            til kreative eksperimenter. Alt sammen krydret med masser af
+            inspirerende fotos. God læselyst!
+          </p>
+        </div>
+
+        <div class="">
+          <p class="text-2xl font-bold">Stamdata for bogen</p>
+          <ul class="list-none">
+            <li>
+              <b>Titel: </b>Københavnerbilleder - en guide til hipster foto
+            </li>
+            <li><b>Forfatter:</b> Sten Simons</li>
+            <li><b>Antal sider:</b> 344</li>
+            <li><b>Forlag:</b> Mellem Linjerne</li>
+            <li><b>ISBN:</b> 987-6-987654-32-1</li>
+            <li><b>Pris: </b>399.-</li>
+          </ul>
+        </div>
+        <!-- billeder af bogen  -->
+
+        <div class="lg:flex">
+          <img
+            src="pic/kobenhavnerbilleder-sten-simons.jpg"
+            alt="billeder af bogen"
+            class="shadow-lg"
+          />
+          <img
+            src="pic/kobenhavnerbilleder_oppefra.jpg"
+            alt="billeder af bogen"
+            class="shadow-lg"
+          />
+          <img
+            src="pic/kobenhavnerbilleder_aaben_venstre.jpg"
+            alt="  billeder af bogen"
+            class="shadow-lg"
+          />
+        </div>
+      </section>
+
+      <!-- Section 3  -->
+      <section>
+        <div>
+          <p class="text-2xl font-bold">Bogens kapitler</p>
+          <div>
+            <p class="mb-0 text-lg font-bold">
+              Kapitel 1 - Intro til street foto
+            </p>
+            <p class="mb-10 mt-0 italic">
+              Hvad er street foto? Det handler i bund og grund om at skyde byens
+              liv og byens geometri (urban geometry). I dette kapitel får du en
+              grundig intro til hvad street foto er og et overblik over nogen af
+              de kendte street-fotografer. Alt krydret med en masse gode
+              eksempler på street fotos.
+            </p>
+          </div>
+          <div>
+            <p class="mb-0 text-lg font-bold">Kapitel 2 - Om at skyde street</p>
+            <p class="mb-10 mt-0 italic">
+              Vil du skyde street? Så er der ikke nogen vej udenom: Du skal ud
+              på gaderne og prøve det! I dette kapitel får du en teknisk
+              indføring i hvordan du bedst skyder street. Uanset om du er
+              begynder eller professionel, er der mange gode tekniske tips og
+              tricks til street-skyderiet.
+            </p>
+          </div>
+          <div>
+            <p class="mb-0 text-lg font-bold">
+              Kapitel 3 - Om at finde det rette motiv
+            </p>
+            <p class="mb-10 mt-0 italic">
+              Indimellem er man heldig, andre gange kommer man hjem helt uden
+              gode motiver. Med et par tips og tricks til at finde de rette
+              motiver, stiger chancen gevaldigt for at fange de gode motiver.
+            </p>
+          </div>
+          <div>
+            <p class="mb-0 text-lg font-bold">
+              Kapitel 4 - Digital street foto
+            </p>
+            <p class="mb-10 mt-0 italic">
+              De fleste af os skyder oftest digitalt fordi det er billigere og
+              nemmere. Og nogen teknikker og fremgangsmåder egner sig kun til
+              digital street foto. I dette kapitel får du en række tips og
+              tricks til digital street-foto.
+            </p>
+          </div>
+          <div>
+            <p class="mb-0 text-lg font-bold">Kapitel 5 - Analog street foto</p>
+            <p class="mb-10 mt-0 italic">
+              Analog er sejt fordi det er mere “ægte,” dyrere og mere besværligt
+              end digital. Det signalerer entusiasme. Nogle teknikker og
+              fremgangsmåder egner sig bedst til analog street foto. I dette
+              kapitel får du en række tips og tricks til analog street-foto.
+            </p>
+          </div>
+          <div>
+            <p class="mb-0 text-lg font-bold">
+              Kapitel 6 - Om at skyde sort/hvid
+            </p>
+            <p class="talic mb-10 mt-0">
+              Alle street-fotografer skyder sort/hvid nu og da. Nogen altid.
+              Hvorfor? Hvad er der specielt ved sort/hvid fotografering, og hvad
+              adskiller sort/hvid fra farvefotografering? Her får du en række
+              tips og tricks til sort/hvid fotografering.
+            </p>
+          </div>
+          <div>
+            <p class="mb-0 text-lg font-bold">Kapitel 7 - Kreative teknikker</p>
+            <p class="mb-10 mt-0 italic">
+              Dobbelteksponeringer, ICM (intentional camera moves), smadrede
+              objektiver, gamle filmruller og alle mulige andre, spændende
+              kreative teknikker kan løfte dine fotografier fra at være kedelige
+              dokumentationer af hverdagen til at blive vilde kunststykker. Så
+              dyk ned i dette kapitel om eksperimenterende teknikker!
+            </p>
+          </div>
+          <div>
+            <p class="mb-0 text-lg font-bold">Kapitel 8 - Kom helt tæt på!</p>
+            <p class="mt-0 mb-10 italic">
+              Street foto handler om at fotografere livet på gaden - men tør du
+              at gå helt tæt på fremmede mennesker og knipse løs? Du kan lige så
+              godt øve dig, for det er det der vil gøre dig til en bedre
+              street-fotograf…
+            </p>
+          </div>
+          <!-- knap til prøvekapitel -->
+          <div class="rounded-sm bg-zinc-100 p-5 text-center">
+            <div>
+              <p>Få et gratis prøvekapitlet og gå mere i dybden med bogen.</p>
+            </div>
+            <button
+              class="mx-9 rounded-md bg-green-700 py-1 px-4 text-slate-100 shadow-2xl duration-700 hover:scale-125 hover:bg-green-400 hover:duration-700"
+            >
+              Hent her
+            </button>
+          </div>
+        </div>
+        <!-- Andmeldelser af bogen   -->
+        <div>
+          <p class="text-2xl font-bold">Anmeldelser af bogen</p>
+          <div>
+            <p class="mb-0 text-lg font-bold">5 af 6 stjerner</p>
+            <p class="mt-0">
+              Københavnerbilleder er en grundig introduktion til at skyde
+              billeder med retro-kant. Hvad enten du er har arbejdet med foto
+              siden 135-filmen kom på markedet, du kun har skudt digitalt eller
+              er helt nybegynder, er der masser af tips og tricks i bogen.
+            </p>
+            <p class="italic">- Hanne Hovgaard, Berlingeren</p>
+          </div>
+          <div>
+            <p class="mb-0 mt-10 text-lg font-bold">4 af 5 stjerner</p>
+            <p class="mt-0">
+              Teksten er underholdende, og billederne er sku flotte. Hvad mere
+              skal man sige om en fotobog?
+            </p>
+            <p class="italic">- Kim Kloggaard, Fotojournalen.dk</p>
+          </div>
+          <div>
+            <p class="mb-0 mt-10 text-lg font-bold">6 af 6 stjerner</p>
+            <p class="mt-0">
+              Sten Simons kan det der - og han bliver bedre og bedre. Stens
+              tredje fotobog er klart den bedste - her er han for alvor i sit
+              rette element, meget bedre end “studiefotografering som
+              begyndere.” Tillykke - godt arbejde.
+            </p>
+            <p class="italic">- Volmer Hansen, Lukkertiden.dk</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 5 galleri  -->
+
+      <section>
+        <p class="text-2xl font-bold">Billeder fra bogen</p>
+        <div>
+          <img
+            src="pic/agfa-genanvendeligt-kamera-35mm-film-2-5.jpg"
+            alt="galleri"
+            class="shadow-lg"
+          />
+          <img
+            src="pic/foraar-med-et-agfa-le-box-2021-17.jpg"
+            alt="galleri"
+            class="shadow-lg"
+          />
+          <img
+            src="pic/nikkormat-ft2-orestad-c-6.jpg"
+            alt="galleri"
+            class="shadow-lg"
+          />
+          <img
+            src="pic/nikkormat-ft2-remiseparken-2.jpg"
+            alt="galleri"
+            class="shadow-lg"
+          />
+          <img
+            src="pic/orestad-til-islands-brygge-pentax-auto-110-17.jpg"
+            alt="galleri"
+            class="shadow-lg"
+          />
+          <img
+            src="pic/pinhole-objektiver-ved-eghjorten-3.jpg"
+            alt="galleri"
+            class="shadow-lg"
+          />
+        </div>
+      </section>
+
+      <!-- Section 6 forfattern -->
+      <section>
+        <p class="text-2xl font-bold">Forfattern</p>
+        <div>
+          <p>
+            Sten Simons har en lang foto-karriere bag sig. Det hele startede i
+            00erne, da han gik rundt i Pisserenden for at fotografere ungdommens
+            forfald. Det ledte til en række udstillinger, og blev senere til
+            hans først fotobog “Ungdomsdruk - pinlige billeder fra nattelivet.”
+          </p>
+          <p>
+            Derefter tog karrieren fart: Han blev fotojournalist og
+            dokumenterede en masse dagligdagsstof fra Amager på dagbladet
+            “Amagerkaneren.” Sideløbende begyndte han at undervise i foto, og
+            har skrevet et utal af bøger, herunder bestsellerne Scener fra
+            S-toget, Brun mad - en visuel odysse, og lærebogen Fotografering for
+            evnesvage.
+          </p>
+        </div>
+        <figure>
+          <img src="pic/sten_simons.jpg" alt="billede af forfattern" />
+          <figcaption class="mt-0">Billede af Sten Simons</figcaption>
+        </figure>
+      </section>
+
+      <!-- section 7 KØB forhelvede lortet  -->
+
+      <section>
+        <div class="rounded-sm bg-zinc-100 p-5 text-center">
+          <p>Køb Københavnerbilleder nu!</p>
+          <button
+            class="mx-9 rounded-md bg-green-700 py-1 px-4 text-slate-100 shadow-2xl duration-700 hover:scale-125 hover:bg-green-400 hover:duration-700"
+          >
+            KØB
+          </button>
+        </div>
+      </section>
+    </div>
+    <footer
+      class="flex h-12 justify-center gap-10 bg-black pt-4 text-slate-100"
+    >
+      <p>- By your boy Jacob</p>
+      <p>Copy 2626</p>
+    </footer>
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
